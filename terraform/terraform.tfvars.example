@@ -1,0 +1,7 @@
+aws_region         = "us-east-1"
+ses_from_email     = "alerts@yourdomain.com"   # must be verified in SES
+notification_email = "you@yourdomain.com"       # must also be verified while in SES sandbox
+serpapi_token      = "your-serpapi-token-here"
+
+# Optional: override the default schedule (daily 8 AM EST)
+# schedule_expression = "cron(0 13 * * ? *)"
